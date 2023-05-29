@@ -145,7 +145,7 @@ def train_generator(optimizer, fake_data):
     
     return error
 
-num_epochs = 250
+num_epochs = 10
 k = 1
 test_noise = noise(64)
 
