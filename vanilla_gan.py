@@ -25,7 +25,7 @@ to_image = transforms.ToPILImage()
 trainset = MNIST(root='./data/', train=True, download=True, transform=transform)
 trainloader = DataLoader(trainset, batch_size=100, shuffle=True)
 
-device = device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(device)
 
 
